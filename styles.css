@@ -44,7 +44,7 @@ main {
 	height: 30rem;
 	background-color: var(--clr-400);
 	border-radius: 1.4rem;
-	box-shadow: 0.11rem 0.22rem 0.8rem hsl(195, 3%, 76%);
+	box-shadow: 0.11rem 0.22rem 0.9rem hsl(195, 3%, 76%);
 }
 
 .qr-code {
@@ -67,5 +67,5 @@ main {
 .para {
 	color: var(--clr-600);
 	font-size: 15px;
-	margin: 0 1rem;
+	margin: -0.5rem 1rem 1rem 1rem;
 }
