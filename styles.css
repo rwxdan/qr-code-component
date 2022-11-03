@@ -36,7 +36,7 @@ main {
 }
 
 .card {
-	padding-top: 1rem;
+	padding-top: 0.9rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -44,6 +44,7 @@ main {
 	height: 30rem;
 	background-color: var(--clr-400);
 	border-radius: 1.4rem;
+	box-shadow: 0.11rem 0.22rem 0.8rem hsl(195, 3%, 76%);
 }
 
 .qr-code {
