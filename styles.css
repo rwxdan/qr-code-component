@@ -23,16 +23,17 @@ body {
 }
 
 body {
+	min-height: 100vh;
 	background-color: var(--bg-clr);
 	font-family: var(--fn);
 	line-height: 1.5;
 }
 
 main {
+	min-height: 90vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 90vh;
 }
 
 .card {
@@ -40,8 +41,8 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 18.4rem;
-	height: 30rem;
+	max-width: 18.4rem;
+	min-height: 30rem;
 	background-color: var(--clr-400);
 	border-radius: 1.4rem;
 	box-shadow: 0.11rem 0.22rem 0.9rem hsl(195, 3%, 76%);
@@ -52,19 +53,19 @@ main {
 	border-radius: 0.8rem;
 }
 
-.title,
-.para {
+h1,
+p {
 	text-align: center;
 }
 
-.title {
+h1 {
 	color: var(--clr-800);
 	font-weight: var(--fn-bld);
 	margin: 1rem;
 	font-size: 20px;
 }
 
-.para {
+p {
 	color: var(--clr-600);
 	font-size: 15px;
 	margin: -0.5rem 1rem 1rem 1rem;
