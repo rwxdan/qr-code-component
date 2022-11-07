@@ -76,8 +76,7 @@ main {
 
 .modal {
 	max-width: 35ch;
-	margin-inline: auto;
-	margin-block: auto;
+	margin: auto;
 	text-align: center;
 	padding: 1rem;
 	border-radius: 1rem;
