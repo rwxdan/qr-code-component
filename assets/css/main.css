@@ -64,6 +64,7 @@ p {
 
 img {
 	border-radius: 0.5rem;
+	max-width: 100%;
 }
 
 main {
